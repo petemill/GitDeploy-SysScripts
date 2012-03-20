@@ -1,0 +1,9 @@
+GitDeploy is a set of PowerShell scripts which can clone one or more remote git repositories and ensure each repository is kept up to date.
+
+It was designed for a distributed deployment enviornment where source code should be distributed to many servers in a scalable manner (each server maintains a local copy, and retreives by a pull mechanism).
+
+It is designed to handle distributed configuration of itself too. There is an option to load lists of remote repositories through a variety of methods, even easily using a GitDeploy-pulled list of locations.
+
+Requirements:
+- Windows Powershell
+- Git for Windows
